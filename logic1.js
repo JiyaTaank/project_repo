@@ -1,6 +1,6 @@
 let userscr=document.querySelector("#u");
 let compscr=document.querySelector("#c");
-let restart=document.querySelectorAll(".button");
+let restart=document.querySelector(".button");
 let userscore=0;
 let compscore=0;
 
@@ -89,7 +89,6 @@ let playgame = (userchoice) =>{
         compscore=0;
         userscr.innerText=0;
         compscr.innerText=0;
-       restart.style.opacity="50%";
     })
 
 }
