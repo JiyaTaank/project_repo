@@ -57,3 +57,28 @@ img{
 .msg_container{
     margin-top: 3rem;
 }
+#restart{
+    background-color:green; 
+    color:#00100B; 
+    padding:1rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: inline;
+   
+
+}
+.button{
+    margin-top: 3rem;
+   display: inline-block;
+   transition: opacity 500ms;
+   
+}
+.button:hover{
+    cursor: pointer;
+}
+.button:active{
+    opacity: 40% ;
+    
+}
+

@@ -1,5 +1,6 @@
 let userscr=document.querySelector("#u");
 let compscr=document.querySelector("#c");
+let restart=document.querySelectorAll(".button");
 let userscore=0;
 let compscore=0;
 
@@ -83,6 +84,13 @@ let playgame = (userchoice) =>{
         showWinner(userwin);
 
     }
+    restart.addEventListener("click",() =>{
+        userscore=0;
+        compscore=0;
+        userscr.innerText=0;
+        compscr.innerText=0;
+       
+    })
 
 }
 
