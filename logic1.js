@@ -89,7 +89,7 @@ let playgame = (userchoice) =>{
         compscore=0;
         userscr.innerText=0;
         compscr.innerText=0;
-       
+       restart.style.opacity="50%";
     })
 
 }
