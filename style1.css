@@ -77,8 +77,5 @@ img{
 .button:hover{
     cursor: pointer;
 }
-.button:active{
-    opacity: 40% ;
-    
-}
+
 
